@@ -1,12 +1,12 @@
 # Git Tutorial
 
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+This project aims to simplify and guide beginners in making their first GitHub contribution simply by following the steps below.
 
 If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
+**If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/) first.**
 
-#### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
+<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
 ## Fork this repository
 
@@ -25,16 +25,15 @@ Open a terminal and run the following git command:
 git clone "url you just copied"
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
-
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
 For example:
 
 ```
 git clone https://github.com/Wake-Tech-Programming-Club/git-tutorial.git
 ```
-
 Here you're copying the contents of this repository on GitHub to your computer.
 
 ## Create a branch
@@ -101,11 +100,12 @@ Now submit the pull request.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
-
-## Where to go from here?
+Every so often, someone in charge of the repo will merge your changes into the main branch of this project.
+If you setup to be notified, you will receive a notification email once the changes have been merged.
 
 Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
+
+## Where to go from here?
 
 Check out advanced git topics found in this git repo:
 #### [Git Workflow Scenarios](git_workflow_scenarios/README.md)
