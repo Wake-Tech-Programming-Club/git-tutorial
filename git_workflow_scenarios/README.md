@@ -24,14 +24,14 @@ This document provides information about how to remove a file from your local re
 
 ### [Removing a branch from your repository](removing-branch-from-your-repository.md)
 This document provides information about how to delete a branch from your repository.
-> Only do these steps after your pull request get's merged.
+> Only do these steps after your pull request gets merged.
 
 ### [Resolving Merge Conflicts](resolving-merge-conflicts.md)
 This document provides information about how to resolve merge conflicts.
 > Take these steps to resolve the annoying merge conflicts.
 
 ### [Reverting a commit](reverting-a-commit.md)
-This document provides information about how to revert a commit on the remote repository. It will come in handy in case you need to undo a commit that has already been pushed to Github.
+This document provides information about how to revert a commit on the remote repository. It will come in handy in case you need to undo a commit that has already been pushed to GitHub.
 > Take these steps if you want to reverse a commit.
 
 ### [Squashing Commits](squashing-commits.md)
@@ -42,7 +42,7 @@ This document provides information about how to squash commits with an interacti
 This document provides information about how to undo a commit on your local repository. This is what you need to do when you feel you've messed up your local repository and wish to reset the local repository.
 > Take these steps if you want to undo/reset a local commit.
 
-### [Useful Links](Useful-links-for-further-learning.md)
+### [Useful Links](useful-links-for-further-learning.md)
 This document is dedicated to all the tips and tricks websites, blog posts, and helpful sites that make our lives easier. They are a great reference to serve all of our needs, be it a beginner or an expert. This page should act as an index of all those useful links that would help everybody who is new in the open-source domain or someone who wants to learn more.
 
 ### [Creating a .gitignore file](creating-a-gitignore-file.md)

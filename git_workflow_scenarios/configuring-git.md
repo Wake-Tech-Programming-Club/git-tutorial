@@ -21,7 +21,7 @@ There are multiple ways to provide the `git commit` command with your email and 
 
 ### Global Config
 
-When you store something in the global config, it is accessible system wide in all the repositories you work on. This is the preferred way and works for most use cases.
+When you store something in the global config, it is accessible system-wide in all the repositories you work on. This is the preferred way and works for most use cases.
 
 To store something in the global config, you use the `config` command as follows:
 

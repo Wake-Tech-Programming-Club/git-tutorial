@@ -25,7 +25,8 @@ Date:   10/10/20
     Commit message 2
 ```
 
-So now that you see the commits you wish to merge to one, we can move along into doing that with ```git rebase```. Assuming you're already familiar with ```git rebase```, we can starting squashing commits in the interactive mode of git rebase that you can activate like so:
+So now that you see the commits you wish to merge to one, we can move along into doing that with ```git rebase```. 
+Assuming you're already familiar with ```git rebase```, we can start squashing commits in the interactive mode of git rebase that you can activate like so:
 
 ```
 git rebase -i
