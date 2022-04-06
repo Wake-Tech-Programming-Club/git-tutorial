@@ -108,7 +108,7 @@ Congrats! You just completed the standard _fork -> clone -> edit -> pull request
 ## Where to go from here?
 
 Check out advanced git topics found in this git repo:
-#### [Git Workflow Scenarios](git_workflow_scenarios/README.md)
+#### [Git Workflow Scenarios](git-workflow-scenarios/README.md)
 
 ## Tutorials Using Other Tools
 
