@@ -1,15 +1,13 @@
 # First Contributions
 
-|<img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="200">|GitHub Desktop Edition|
-|---|---|
+| <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="200"> | GitHub Desktop Edition |
+|-------------------------------------------------------------------------------------------------|------------------------|
 
 It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
 
 Reading articles & watching tutorials can help, but what comes better than actually doing the stuff without messing up anything. This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember the more relaxed you are the better you learn. If you are looking for making your first contribution just follow the simple steps below. We promise you, it will be fun.
 
 If you don't have GitHub Desktop on your machine, [install it](https://desktop.github.com/).
-
-If you're using a version of GitHub desktop before 1.0, [refer this tutorial](github-desktop-old-version-tutorial.md).
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/fork.png" alt="fork this repository" />
 
@@ -28,7 +26,7 @@ To clone the repo, click on "Clone or Download" and then click on "Open in Deskt
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-clonetodesktop.png" alt="clone this repository" />
 
-A pop up window will open. Click on "Open GitHubDesktop.exe".
+A pop-up window will open. Click on "Open GitHubDesktop.exe".
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-open-githubdesktop.png" alt="clone this repository" />
 
@@ -36,7 +34,7 @@ After you click on "Open GitHubDesktop.exe" the contents will be downloaded to y
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-downloaded.png" alt="clone this repository" />
 
-Now you have copied the contents of the first-contributions repository in github to your computer.
+Now you have copied the contents of the first-contributions repository in GitHub to your computer.
 hey there here we are
 ## Create a branch
 
@@ -58,7 +56,7 @@ Example: If your name is James Smith, It should look like this.
 
 \[James Smith](https://github.com/jamessmith)
 
-You can see that there are changes to Contributors.md and they have been added to the Github Desktop.
+You can see that there are changes to Contributors.md, and they have been added to the GitHub Desktop.
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-status.png" alt="check status" />
 
@@ -76,9 +74,9 @@ At the bottom, you can see that the commit has been created.
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-commit2.png" alt="commit your changes" />
 
-## Push changes to github
+## Push changes to GitHub
 
-Click on File->Options and sign-in to Github.com. Type in your Github username and password.
+Click on File->Options and sign-in to GitHub.com. Type in your GitHub username and password.
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-sign-in.png" alt="log-in to Github" />
 
@@ -88,7 +86,7 @@ Click the `Publish` button on the top right.
 
 ## Submit your changes for review
 
-If you go to your repository on github, you'll see  `Compare & pull request` button. click on that button.
+If you go to your repository on GitHub, you'll see  `Compare & pull request` button. click on that button.
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/compare-and-pull.png" alt="create a pull request" />
 
@@ -96,17 +94,17 @@ Now submit the pull request.
 
 <img style="left;" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Every so often, someone in charge of the repo will merge your changes into the main branch of this project.
+If you setup to be notified, you will receive a notification email once the changes have been merged.
+
+Congrats! You just completed the standard *fork -> clone -> edit -> pull request* workflow that you'll encounter often as a contributor!
 
 ## Where to go from here?
 
-Congrats!  You just completed the standard _fork -> clone -> edit -> PR_ workflow that you'll encounter often as a contributor!
+Check out advanced git topics found in this git repo:
+#### [Git Workflow Scenarios](../git_workflow_scenarios/README.md)
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io#social-share).
-
-
-
-### [Additional material](../git_workflow_scenarios/README.md)
+#### [Additional Material](../git_workflow_scenarios/README.md)
 
 ## Tutorials Using Other Tools
-[Back to main page](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)
+[Back to main page](README.md)

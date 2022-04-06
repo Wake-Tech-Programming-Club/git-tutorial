@@ -1,12 +1,7 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" width="150" src="https://firstcontributions.github.io/assets/Readme/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
-
 # First Contributions
 
-|<img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Visual_Studio_2017_logo_and_wordmark.svg/2000px-Visual_Studio_2017_logo_and_wordmark.svg.png" width="200">|Visual Studio 2017 Edition|
-|---|---|
+| <img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Visual_Studio_2017_logo_and_wordmark.svg/2000px-Visual_Studio_2017_logo_and_wordmark.svg.png" width="200"> | Visual Studio 2017 Edition |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 
 It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
 
@@ -22,13 +17,13 @@ Fork this repository by clicking on the fork button on the top of this page. Thi
 
 GitHub keeps track of the relationship between your repo and the one you forked it from.  You can think of your repo as a working copy.
 
-Most top-level GitHub repos (i.e. ones not forked from any other repo) have a small core team of people who can directly commit changes.  All other contributors must fork the repo and make changes in the fork, then create a Pull Request to ask for their changes to be merged back into the top-level repo. If the top-level repo administrator likes the changes they will be merged and you will gain instant fame and fortune!  More on how to do that later.
+Most top-level GitHub repos (i.e. ones not forked from any other repo) have a small core team of people who can directly commit changes.  All other contributors must fork the repo and make changes in the fork, then create a Pull Request to ask for their changes to be merged back into the top-level repo. If the top-level repo administrator likes the changes they will be merged, and you will gain instant fame and fortune!  More on how to do that later.
 
 ## Clone your repository
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/clone.png" alt="clone this repository" />
 
-The next step is to clone your repo down to your machine so you can begin making changes. Visual Studio needs the URL of your repo, so click the "clone" button and then click the "copy to clipboard" icon.
+The next step is to clone your repo down to your machine, so you can begin making changes. Visual Studio needs the URL of your repo, so click the "clone" button and then click the "copy to clipboard" icon.
 
 **CAREFUL:** One mistake that new contributors often make is to clone the repo you forked *from* rather than cloning your repo.  Check your browser's address bar and make sure you are cloning your repo.
 
@@ -36,7 +31,7 @@ It is now time to jump in to Visual Studio 2017!  You will be working in the Tea
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-01-clone1.png" alt="Team Explorer" />
 
-Team Explorer has many views and there are navigation buttons located at the top to help you find the different areas.  To clone a repo, you need to be on the Connect view, which should be the default.  If you do not see the 'clone' button, click the green plug at the top.
+Team Explorer has many views and there are navigation buttons located at the top to help you find the different areas.  To clone a repo, you need to be on the "Connect" view, which should be the default.  If you do not see the 'clone' button, click the green plug at the top.
 
 Click the `Clone` option under **Local Git Repositories** and paste the URL to your repo in the text box.  This should be the URL you copied to your clipboard from GitHub previously.
 
@@ -44,7 +39,7 @@ Click the `Clone` button to initiate the process.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-02-clone2.png" alt="Clone repo" />
 
-When the process is complete you will be moved over to the Solution Explorer tab where you can see the contents of your repo.  Yours will look different than the screenshot below because things change!
+When the process is complete you will be moved over to the Solution Explorer tab where you can see the contents of your repo.  Yours will look different from the screenshot below because things change!
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-03-clone3.png" alt="Solution Explorer" />
 
@@ -87,7 +82,7 @@ Enter the information you want to post with your commit and click `Save`. Visual
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-10-commit2.png" alt="Git user information" />
 
 **NOTE:** Visual Studio uses a hidden folder called `.vs` to store your personal settings and preferences.  The contents of this folder **should not be saved in Git**.
-If it has not been ignored already, you may need to tell Git to ignore this folder so it does not send it up to the repo.
+If it has not been ignored already, you may need to tell Git to ignore this folder, so it does not send it up to the repo.
 
 This folder has already been ignored in this repo, so you should not have to perform this step...it is just here for your reference for future projects.
 
@@ -97,11 +92,11 @@ Now you should see a list of changed files and a textbox to type a commit commen
 
 Click `Commit All and Push` to perform a local commit and push your changes back up to your repo, all in one step.
 
-**NOTE:** Commit can be performed separately from Push.  We do both here for convenience. Commit logs your changes locally but they will not be reflected in your GitHub repo until you Push.
+**NOTE:** Commit can be performed separately from Push.  We do both here for convenience. Commit logs your changes locally, but they will not be reflected in your GitHub repo until you Push.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-12-commit4.png" alt="Commit and Push" />
 
-The first time you Push to GitHub, Visual Studio will ask for your GitHub credentials.  They will be cached so you should not see this very often.
+The first time you Push to GitHub, Visual Studio will ask for your GitHub credentials.  They will be cached, so you should not see this very often.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/vs2017-13-commit5.png" alt="Login" />
 
@@ -113,7 +108,7 @@ You can view your changes by opening the `Branch: master` dropdown and selecting
 
 ## Submit your changes for review
 
-At this point you have completed your change but it still only resides in your repo.  This step will show you how to submit a request to the administrator of the top-level repo to merge your change.
+At this point you have completed your change, but it still only resides in your repo.  This step will show you how to submit a request to the administrator of the top-level repo to merge your change.
 
 In your repo on GitHub you'll see the `Compare & pull request` button next to the new branch notification. Click on that button.
 
@@ -123,18 +118,17 @@ Now submit the pull request.
 
 <img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-windows-vs2017-tutorial/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Every so often, someone in charge of the repo will merge your changes into the main branch of this project.
+If you setup to be notified, you will receive a notification email once the changes have been merged.
+
+Congrats! You just completed the standard *fork -> clone -> edit -> pull request* workflow that you'll encounter often as a contributor!
 
 ## Where to go from here?
 
-Congrats!  You have just completed the standard _fork -> clone -> edit -> PR_ workflow that you'll encounter often as a contributor!
+Check out advanced git topics found in this git repo:
+#### [Git Workflow Scenarios](../git_workflow_scenarios/README.md)
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io#social-share).
-
-You can join our slack team in case you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/enQtMzE1MTYwNzI3ODQ0LTZiMDA2OGI2NTYyNjM1MTFiNTc4YTRhZTg4OWZjMzA0ZWZmY2UxYzVkMzI1ZmVmOWI4ODdkZWQwNTM2NDVmNjY).
-
-
-### [Additional material](../git_workflow_scenarios/README.md)
+#### [Additional Material](../git_workflow_scenarios/README.md)
 
 ## Tutorials Using Other Tools
-[Back to main page](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)
+[Back to main page](README.md)
