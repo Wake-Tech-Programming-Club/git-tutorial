@@ -1,6 +1,6 @@
 # Stashing
 
-What if you are working on a big code and suddenly you need to switch the branch from which you are currently working on to some other branch. Since the code, is not complete, and without any tests, you probably don't want to commit it. But you cannot move to the other branch without committing the changes, Git won't let you break this flow. What do we do then? How do we prevent an unnecessary commit, while being able to jump branches? This is what this tutorial covers.
+What if you are working on a big code, and suddenly you need to switch the branch from which you are currently working on to some other branch. Since the code, is not complete, and without any tests, you probably don't want to commit it. But you cannot move to the other branch without committing the changes, Git won't let you break this flow. What do we do then? How do we prevent an unnecessary commit, while being able to jump branches? This is what this tutorial covers.
 
 ## Stashing your work
 
@@ -115,7 +115,11 @@ $ git stash-unapply
 
 ## Creating a Branch from Stash
 
-If you stash some work, leave it there for a while, and continue on the branch from which you stashed the work, you may have a problem reapplying the work. If the apply tries to modify a file that you’ve since modified, you’ll get a merge conflict and will have to resolve it. If you want an easier way to test the stashed changes again, you can run ```git stash branch```, which creates a new branch for you, checks out the commit you were on when you stashed your work, reapplies your work there, and then drops the stash if it applies successfully:
+If you stash some work, leave it there for a while, and continue on the branch from which you stashed the work, 
+you may have a problem reapplying the work. If the Apply tries to modify a file that you’ve since modified, you’ll 
+get a merge conflict and will have to resolve it. If you want an easier way to test the stashed changes again, you can 
+run ```git stash branch```, which creates a new branch for you, checks out the commit you were on when you stashed 
+your work, reapplies your work there, and then drops the stash if it applies successfully:
 
 ```
 $ git stash branch testchanges

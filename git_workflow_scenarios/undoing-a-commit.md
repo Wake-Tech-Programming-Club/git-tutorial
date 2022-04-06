@@ -26,7 +26,7 @@ $ git add tutorial.php
 $ git commit -m "Changed tutorial.php"
 ```
 
-Let's say if you have messed up your local repository and you just want to reset it to your last commit.
+Let's say if you have messed up your local repository, and you just want to reset it to your last commit.
 Then, you can run the command below.
 ```
 git reset --hard

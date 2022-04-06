@@ -1,6 +1,6 @@
 # Revert a commit
 
-To revert a commit simply means to create a brand new commit that undoes all
+To revert a commit simply means to create a brand-new commit that undoes all
 the changes made in a previous one. It is like doing a ```CTRL + Z ``` on git.
 
 Reversion is made easier in git because every commit you push to your remote repository has a unique alphanumeric key known as SHA(Secure Hash Algorithm) tied to it.
@@ -36,6 +36,6 @@ or you can also decide to customize the message to your liking.
 
 *   Next, I will save and close the text editor.
 *   Return to the command line.
-*   Run ```git push origin <branch-name>``` to push the reverted changes to Github.
+*   Run ```git push origin <branch-name>``` to push the reverted changes to GitHub.
 
 And that is it, the change would be undone. In this case,  my repository would be reverted to how it looked like in ```c1b9fc1```
